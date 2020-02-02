@@ -1,17 +1,23 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <MiButton type="info"
+              icon="el-icon-check"
+              @click="onClick">btn</MiButton>
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import MiButton from '../packages/components/MiButton'
 
 export default {
   name: 'app',
   components: {
-    HelloWorld
+    MiButton
+  },
+  methods: {
+    onClick (...args) {
+      // console.log('>>>args: ', args)
+    }
   }
 }
 </script>

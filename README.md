@@ -1,4 +1,4 @@
-# my-ui
+# mie-ui
 
 ## Project setup
 ```
