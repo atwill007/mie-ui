@@ -1,24 +1,25 @@
 # mie-ui
 
-## Project setup
+## Install
 ```
-npm install
-```
-
-### Compiles and hot-reloads for development
-```
-npm run serve
+npm install mie-ui -S
 ```
 
-### Compiles and minifies for production
-```
-npm run build
-```
+### Quick Start
+```js
+// main.js
+import MieUi from 'mie-ui'
+import 'mie-ui/dist/mie-ui.css'
 
-### Lints and fixes files
+Vue.use(MieUi)
+// or
+const {
+  Button
+  // ...
+} = MieUi
+Button.install(Vue)
 ```
-npm run lint
+```js
+// *.vue
+<MieButton type="success">success</MieButton>
 ```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).

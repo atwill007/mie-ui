@@ -22,7 +22,7 @@
 
 <script>
 export default {
-  name: 'MiButton',
+  name: 'MieButton',
   props: {
     type: {
       type: String,

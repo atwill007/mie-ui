@@ -7,7 +7,7 @@
 </template>
 
 <script>
-import MiButton from '../packages/components/MiButton'
+import MiButton from '../packages/button/src/Button'
 
 export default {
   name: 'app',
