@@ -3,16 +3,19 @@
     <MiButton type="info"
               icon="el-icon-check"
               @click="onClick">btn</MiButton>
+    <PaginationTest />
   </div>
 </template>
 
 <script>
 import MiButton from '../packages/button/src/Button'
+import PaginationTest from './PaginationTest'
 
 export default {
   name: 'app',
   components: {
-    MiButton
+    MiButton,
+    PaginationTest
   },
   methods: {
     onClick (...args) {

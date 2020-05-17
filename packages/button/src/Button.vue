@@ -60,7 +60,7 @@ export default {
 }
 </script>
 
-<style scoped lang="scss">
+<style lang="scss">
 .mi-button {
   display: inline-block;
   line-height: 1;

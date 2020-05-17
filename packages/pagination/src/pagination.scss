@@ -1,0 +1,39 @@
+.mie {
+  // pagination style
+  &-pagination {
+    display: flex;
+    font-size: 16px;
+    line-height: 1.5;
+    justify-content: center;
+    &--left {
+      justify-content: flex-start;
+    }
+    &--right {
+      justify-content: flex-end;
+    }
+  }
+
+  &-pager {
+    display: flex;
+    margin: 5px;
+    padding: 0;
+    list-style-type: none;
+    li {
+      flex: 0;
+      padding: 8px 16px;
+      margin: 0 5px;
+      background: #eee;
+      border-radius: 5px;
+      cursor: pointer;
+      &.active {
+        background: #007fff;
+        color: #fff;
+      }
+    }
+  }
+
+  &-btn {
+    padding: 8px 16px;
+    border-radius: 5px;
+  }
+}
